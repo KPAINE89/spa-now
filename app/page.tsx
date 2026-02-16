@@ -20,32 +20,24 @@ export default function Home() {
       {/* Header */}
       <header className="relative bg-white/80 backdrop-blur-md border-b border-stone-200/50 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <div className="flex items-center space-x-3">
-            <svg width="40" height="40" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <a href="/" className="flex items-center">
+            <svg width="200" height="80" viewBox="0 0 700 320" fill="none" xmlns="http://www.w3.org/2000/svg">
               <defs>
-                <linearGradient id="champagneGold" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0" stopColor="#F6EBCB"/>
-                  <stop offset="0.45" stopColor="#E6CC7A"/>
-                  <stop offset="0.8" stopColor="#C19A2E"/>
-                  <stop offset="1" stopColor="#8A6A12"/>
-                </linearGradient>
+                <style>
+                  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
+                </style>
               </defs>
-              <circle cx="30" cy="30" r="22.5" stroke="url(#champagneGold)" strokeWidth="2.2" fill="none"/>
-              <path d="M48 30a18 18 0 0 1-6 13" stroke="#111111" strokeWidth="3.2" strokeLinecap="round"/>
-              <path d="M30 10l1.2 6.2L38 18l-6.8 1.8L30 26l-1.2-6.2L22 18l6.8-1.8L30 10z" fill="url(#champagneGold)" opacity="0.95"/>
+              <path d="M 520 160 A 140 140 0 1 1 519.9 159.7" fill="none" stroke="#C19A2E" strokeWidth="3" strokeLinecap="round" opacity="0.45"/>
+              <path d="M 520 160 A 140 140 0 1 1 448 50" fill="none" stroke="#C19A2E" strokeWidth="7" strokeLinecap="round" opacity="0.85"/>
+              <text x="215" y="170" fontFamily="'Cormorant Garamond', serif" fontSize="86" fontWeight="700" letterSpacing="6" fill="#3A3A3A">SPA</text>
+              <text x="420" y="170" fontFamily="'Cormorant Garamond', serif" fontSize="86" fontWeight="700" letterSpacing="6" fill="#C19A2E">NOW</text>
+              <text x="300" y="220" fontFamily="'Cormorant Garamond', serif" fontSize="26" fontWeight="600" letterSpacing="8" fill="#7A7A7A">FIND • BOOK • RELAX</text>
             </svg>
-            <div className="flex flex-col">
-              <div className="flex items-baseline space-x-1">
-                <span style={{fontFamily: 'Georgia, serif', fontSize: '28px', fontWeight: '700', color: '#111111', letterSpacing: '2px'}}>SPA</span>
-                <span style={{fontFamily: 'Georgia, serif', fontSize: '28px', fontWeight: '700', color: '#D4AF37', letterSpacing: '2px'}}>NOW</span>
-              </div>
-              <span style={{fontFamily: 'Georgia, serif', fontSize: '9px', fontWeight: '300', color: '#6B6B6B', letterSpacing: '3px', marginTop: '-4px'}}>FIND • BOOK • RELAX</span>
-            </div>
-          </div>
+          </a>
           <nav className="hidden md:flex space-x-8 text-sm">
             <a href="#" className="text-stone-600 hover:text-yellow-600 transition font-light tracking-wide">Find a Spa</a>
             <a href="#" className="text-stone-600 hover:text-yellow-600 transition font-light tracking-wide">For Providers</a>
-            <a href="#" className="text-stone-600 hover:text-yellow-600 transition font-light tracking-wide">About</a>
+            <a href="/about" className="text-stone-600 hover:text-yellow-600 transition font-light tracking-wide">About</a>
           </nav>
           <div className="flex items-center space-x-4">
             <button className="text-stone-700 hover:text-yellow-600 font-light text-sm transition">Sign In</button>
@@ -292,21 +284,19 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div>
-              <div className="mb-4 flex items-center space-x-2">
-                <svg width="32" height="32" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <div className="mb-4">
+                <svg width="160" height="64" viewBox="0 0 700 320" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <defs>
-                    <linearGradient id="champagneGoldFooter" x1="0" y1="0" x2="1" y2="1">
-                      <stop offset="0" stopColor="#F6EBCB"/>
-                      <stop offset="0.45" stopColor="#E6CC7A"/>
-                      <stop offset="0.8" stopColor="#C19A2E"/>
-                      <stop offset="1" stopColor="#8A6A12"/>
-                    </linearGradient>
+                    <style>
+                      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
+                    </style>
                   </defs>
-                  <circle cx="30" cy="30" r="22.5" stroke="url(#champagneGoldFooter)" strokeWidth="2.2" fill="none" opacity="0.6"/>
-                  <path d="M48 30a18 18 0 0 1-6 13" stroke="#999999" strokeWidth="3.2" strokeLinecap="round"/>
-                  <path d="M30 10l1.2 6.2L38 18l-6.8 1.8L30 26l-1.2-6.2L22 18l6.8-1.8L30 10z" fill="url(#champagneGoldFooter)" opacity="0.7"/>
+                  <path d="M 520 160 A 140 140 0 1 1 519.9 159.7" fill="none" stroke="#C19A2E" strokeWidth="3" strokeLinecap="round" opacity="0.35"/>
+                  <path d="M 520 160 A 140 140 0 1 1 448 50" fill="none" stroke="#C19A2E" strokeWidth="7" strokeLinecap="round" opacity="0.65"/>
+                  <text x="215" y="170" fontFamily="'Cormorant Garamond', serif" fontSize="86" fontWeight="700" letterSpacing="6" fill="#999999">SPA</text>
+                  <text x="420" y="170" fontFamily="'Cormorant Garamond', serif" fontSize="86" fontWeight="700" letterSpacing="6" fill="#C19A2E">NOW</text>
+                  <text x="300" y="220" fontFamily="'Cormorant Garamond', serif" fontSize="26" fontWeight="600" letterSpacing="8" fill="#7A7A7A">FIND • BOOK • RELAX</text>
                 </svg>
-                <span style={{fontFamily: 'Georgia, serif', fontSize: '18px', fontWeight: '700', color: '#999999', letterSpacing: '1px'}}>SPANOW</span>
               </div>
               <p className="text-sm font-light text-stone-400 leading-relaxed">
                 Atlanta's premier destination for instant bookings.
@@ -316,25 +306,25 @@ export default function Home() {
             <div>
               <h5 className="font-light mb-4 text-white text-sm tracking-wider uppercase">Explore</h5>
               <ul className="space-y-2.5 text-sm font-light">
-                <li><a href="#" className="text-stone-400 hover:text-yellow-400 transition">Find a Spa</a></li>
-                <li><a href="#" className="text-stone-400 hover:text-yellow-400 transition">How It Works</a></li>
+                <li><a href="/" className="text-stone-400 hover:text-yellow-400 transition">Find a Spa</a></li>
+                <li><a href="/" className="text-stone-400 hover:text-yellow-400 transition">How It Works</a></li>
               </ul>
             </div>
             
             <div>
               <h5 className="font-light mb-4 text-white text-sm tracking-wider uppercase">Providers</h5>
               <ul className="space-y-2.5 text-sm font-light">
-                <li><a href="#" className="text-stone-400 hover:text-yellow-400 transition">Join SpaNow</a></li>
-                <li><a href="#" className="text-stone-400 hover:text-yellow-400 transition">Partner Login</a></li>
+                <li><a href="/providers" className="text-stone-400 hover:text-yellow-400 transition">Join SpaNow</a></li>
+                <li><a href="/providers" className="text-stone-400 hover:text-yellow-400 transition">Partner Login</a></li>
               </ul>
             </div>
             
             <div>
               <h5 className="font-light mb-4 text-white text-sm tracking-wider uppercase">Company</h5>
               <ul className="space-y-2.5 text-sm font-light">
-                <li><a href="#" className="text-stone-400 hover:text-yellow-400 transition">About</a></li>
-                <li><a href="#" className="text-stone-400 hover:text-yellow-400 transition">Contact</a></li>
-                <li><a href="#" className="text-stone-400 hover:text-yellow-400 transition">Privacy</a></li>
+                <li><a href="/about" className="text-stone-400 hover:text-yellow-400 transition">About</a></li>
+                <li><a href="/contact" className="text-stone-400 hover:text-yellow-400 transition">Contact</a></li>
+                <li><a href="/privacy" className="text-stone-400 hover:text-yellow-400 transition">Privacy</a></li>
               </ul>
             </div>
           </div>
