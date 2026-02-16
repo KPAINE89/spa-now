@@ -55,7 +55,7 @@ export default function About() {
           </div>
 
           <h1 className="text-5xl md:text-6xl font-light text-stone-800 mb-6 text-center tracking-tight">
-            About Spa Now
+            About SpaNow
           </h1>
 
           <p className="text-xl text-stone-600 text-center mb-16 font-light leading-relaxed max-w-2xl mx-auto">
@@ -84,7 +84,7 @@ export default function About() {
               </p>
               
               <p className="text-stone-700 leading-relaxed mb-6">
-                As the general counsel of a fast-moving tech company, my schedule changes constantly. I don't have time to create accounts on five different platforms just to see who might have a slot. I didn't want to visit a hundred websites. I didn't want to call around. I just wanted to see what was actually available — right now — across all the providers in my area.
+                As the general counsel of a fast-moving tech company, my schedule changes constantly. I don't have time to create accounts on five different platforms just to see who might have a slot. I don't want to visit a hundred websites. I don't want to call around. I just want to see what is actually available — right now — across all the providers in my area.
               </p>
               
               <p className="text-stone-700 leading-relaxed mb-6">
@@ -92,7 +92,7 @@ export default function About() {
               </p>
               
               <p className="text-stone-700 leading-relaxed mb-8">
-                In a world where you can book a flight, reserve a table, or order a car in seconds, why is booking a massage still this complicated?
+                In a world where you can book a flight, reserve a table, or order a car in seconds, why is booking a massage or a quick pedicure still this complicated?
               </p>
 
               <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
@@ -139,7 +139,7 @@ export default function About() {
           {/* What Makes Us Different */}
           <div className="mb-16">
             <div className="h-px w-16 bg-gradient-to-r from-transparent via-yellow-500 to-transparent mx-auto mb-8" />
-            <h2 className="text-3xl font-light text-stone-800 mb-12 text-center">What Makes Spa Now Different</h2>
+            <h2 className="text-3xl font-light text-stone-800 mb-12 text-center">What Makes SpaNow Different</h2>
             
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
@@ -147,7 +147,7 @@ export default function About() {
                 <div>
                   <h3 className="font-light text-stone-800 text-lg mb-2">Platform Agnostic</h3>
                   <p className="text-stone-600 font-light leading-relaxed">
-                    We integrate with Mindbody, Square, Booker, and more. Your spa keeps using the system you already know and love—we just help fill your empty slots.
+                    We integrate with Mindbody, Square, Booker, and more. Your business keeps using the system you already know and love—we just help fill your empty slots.
                   </p>
                 </div>
               </div>
@@ -167,7 +167,7 @@ export default function About() {
                 <div>
                   <h3 className="font-light text-stone-800 text-lg mb-2">Built by Someone Who Gets It</h3>
                   <p className="text-stone-600 font-light leading-relaxed">
-                    As General Counsel of a fast-moving tech company and an Atlanta local, I understand the unique challenges of finding time for self-care in a demanding schedule. SpaNow is designed for people like us—who work hard and deserve to relax without the hassle.
+                    As busy wife, step mom and executive of a fast-moving tech company, I understand the unique challenges of finding time for self-care in a demanding schedule. SpaNow is designed for people like us—who work hard and deserve to relax without the hassle.
                   </p>
                 </div>
               </div>
@@ -188,7 +188,7 @@ export default function About() {
           <div className="bg-gradient-to-br from-stone-800 to-stone-900 rounded-3xl p-12 text-center text-white">
             <h2 className="text-3xl font-light mb-4">Join the Movement</h2>
             <p className="text-stone-200 font-light leading-relaxed mb-8 max-w-xl mx-auto">
-              Whether you're looking to book your next moment of peace or you're a spa owner ready to fill your schedule, Spa Now is here for you.
+              Whether you're looking to book your next moment of peace or you're a spa owner ready to fill your schedule, SpaNow is here for you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/" className="bg-white text-stone-900 px-8 py-3.5 rounded-full font-light tracking-wide hover:bg-stone-50 transition shadow-lg">
@@ -240,7 +240,7 @@ export default function About() {
             <div>
               <h5 className="font-light mb-4 text-white text-sm tracking-wider uppercase">Providers</h5>
               <ul className="space-y-2.5 text-sm font-light">
-                <li><a href="/providers" className="text-stone-400 hover:text-yellow-500 transition">Join Spa Now</a></li>
+                <li><a href="/providers" className="text-stone-400 hover:text-yellow-500 transition">Join SpaNow</a></li>
                 <li><a href="/providers" className="text-stone-400 hover:text-yellow-500 transition">Partner Login</a></li>
               </ul>
             </div>
@@ -257,7 +257,7 @@ export default function About() {
           
           <div className="border-t border-stone-800 pt-8 text-center">
             <p className="text-xs font-light text-stone-500 tracking-wide">
-              © 2026 Spa Now LLC
+              © 2026 SpaNow LLC
             </p>
           </div>
         </div>
