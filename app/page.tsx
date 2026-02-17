@@ -31,7 +31,7 @@ export default function Home() {
             <img
               src="/spanow-logo.svg"
               alt="SpaNow"
-              className="h-14 sm:h-16 w-auto"
+              className="h-24 sm:h-16 w-auto"
             />
           </a>
 
@@ -143,7 +143,7 @@ export default function Home() {
                   <img
                     src="/spanow-logo.svg"
                     alt="SpaNow"
-                    className="h-12 w-auto opacity-90"
+                    className="h-20 w-auto opacity-90"
                   />
                 </div>
                 <p className="text-sm font-light text-stone-400 leading-relaxed">
