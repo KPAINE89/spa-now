@@ -21,18 +21,7 @@ export default function Home() {
       <header className="relative bg-white/80 backdrop-blur-md border-b border-stone-200/50 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/" className="flex items-center">
-            <svg width="200" height="80" viewBox="0 0 700 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <style>
-                  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
-                </style>
-              </defs>
-              <path d="M 520 160 A 140 140 0 1 1 519.9 159.7" fill="none" stroke="#C19A2E" strokeWidth="3" strokeLinecap="round" opacity="0.45"/>
-              <path d="M 520 160 A 140 140 0 1 1 448 50" fill="none" stroke="#C19A2E" strokeWidth="7" strokeLinecap="round" opacity="0.85"/>
-              <text x="215" y="170" fontFamily="'Cormorant Garamond', serif" fontSize="86" fontWeight="700" letterSpacing="6" fill="#3A3A3A">SPA</text>
-              <text x="420" y="170" fontFamily="'Cormorant Garamond', serif" fontSize="86" fontWeight="700" letterSpacing="6" fill="#C19A2E">NOW</text>
-              <text x="300" y="220" fontFamily="'Cormorant Garamond', serif" fontSize="26" fontWeight="600" letterSpacing="8" fill="#7A7A7A">FIND • BOOK • RELAX</text>
-            </svg>
+            <img src="/logo.png" alt="Spa Now" className="h-20" />
           </a>
           <nav className="hidden md:flex space-x-8 text-sm">
             <a href="#" className="text-stone-600 hover:text-yellow-600 transition font-light tracking-wide">Find a Spa</a>
@@ -285,18 +274,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div>
               <div className="mb-4">
-                <svg width="160" height="64" viewBox="0 0 700 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <style>
-                      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&display=swap');
-                    </style>
-                  </defs>
-                  <path d="M 520 160 A 140 140 0 1 1 519.9 159.7" fill="none" stroke="#C19A2E" strokeWidth="3" strokeLinecap="round" opacity="0.35"/>
-                  <path d="M 520 160 A 140 140 0 1 1 448 50" fill="none" stroke="#C19A2E" strokeWidth="7" strokeLinecap="round" opacity="0.65"/>
-                  <text x="215" y="170" fontFamily="'Cormorant Garamond', serif" fontSize="86" fontWeight="700" letterSpacing="6" fill="#999999">SPA</text>
-                  <text x="420" y="170" fontFamily="'Cormorant Garamond', serif" fontSize="86" fontWeight="700" letterSpacing="6" fill="#C19A2E">NOW</text>
-                  <text x="300" y="220" fontFamily="'Cormorant Garamond', serif" fontSize="26" fontWeight="600" letterSpacing="8" fill="#7A7A7A">FIND • BOOK • RELAX</text>
-                </svg>
+                <img src="/logo.png" alt="Spa Now" className="h-16 opacity-80" />
               </div>
               <p className="text-sm font-light text-stone-400 leading-relaxed">
                 Atlanta's premier destination for instant bookings.
