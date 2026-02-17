@@ -21,7 +21,76 @@ export default function Home() {
       <header className="relative bg-white/80 backdrop-blur-md border-b border-stone-200/50 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/" className="flex items-center">
-            <img src="/public/spanow-logo.svg" alt="Spa Now" className="h-20" />
+            <svg
+  viewBox="0 0 900 260"
+  className="h-20 sm:h-24 w-auto"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Circle Frame -->
+  <circle
+    cx="650"
+    cy="120"
+    r="95"
+    fill="none"
+    stroke="#C19A2E"
+    strokeWidth="3"
+    opacity="0.35"
+  />
+
+  <!-- Main Ring with Gap -->
+  <circle
+    cx="650"
+    cy="120"
+    r="95"
+    fill="none"
+    stroke="#C19A2E"
+    strokeWidth="7"
+    strokeLinecap="round"
+    strokeDasharray="540 60"
+    strokeDashoffset="-30"
+    opacity="0.9"
+  />
+
+  <!-- SPA -->
+  <text
+    x="240"
+    y="135"
+    fontFamily="Cormorant Garamond, serif"
+    fontSize="92"
+    fontWeight="700"
+    letterSpacing="6"
+    fill="#3A3A3A"
+  >
+    SPA
+  </text>
+
+  <!-- NOW -->
+  <text
+    x="460"
+    y="135"
+    fontFamily="Cormorant Garamond, serif"
+    fontSize="92"
+    fontWeight="700"
+    letterSpacing="6"
+    fill="#C19A2E"
+  >
+    NOW
+  </text>
+
+  <!-- Tagline -->
+  <text
+    x="360"
+    y="185"
+    fontFamily="Cormorant Garamond, serif"
+    fontSize="26"
+    fontWeight="600"
+    letterSpacing="8"
+    fill="#8A8A8A"
+  >
+    FIND • BOOK • RELAX
+  </text>
+</svg>
+ alt="Spa Now" className="h-20" />
           </a>
           <nav className="hidden md:flex space-x-8 text-sm">
             <a href="#" className="text-stone-600 hover:text-yellow-600 transition font-light tracking-wide">Find a Spa</a>
@@ -274,7 +343,76 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div>
               <div className="mb-4">
-                <img src="/public/spanow-logo.svg" alt="Spa Now" className="h-16 opacity-80" />
+                <<svg
+  viewBox="0 0 900 260"
+  className="h-20 sm:h-24 w-auto"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Circle Frame -->
+  <circle
+    cx="650"
+    cy="120"
+    r="95"
+    fill="none"
+    stroke="#C19A2E"
+    strokeWidth="3"
+    opacity="0.35"
+  />
+
+  <!-- Main Ring with Gap -->
+  <circle
+    cx="650"
+    cy="120"
+    r="95"
+    fill="none"
+    stroke="#C19A2E"
+    strokeWidth="7"
+    strokeLinecap="round"
+    strokeDasharray="540 60"
+    strokeDashoffset="-30"
+    opacity="0.9"
+  />
+
+  <!-- SPA -->
+  <text
+    x="240"
+    y="135"
+    fontFamily="Cormorant Garamond, serif"
+    fontSize="92"
+    fontWeight="700"
+    letterSpacing="6"
+    fill="#3A3A3A"
+  >
+    SPA
+  </text>
+
+  <!-- NOW -->
+  <text
+    x="460"
+    y="135"
+    fontFamily="Cormorant Garamond, serif"
+    fontSize="92"
+    fontWeight="700"
+    letterSpacing="6"
+    fill="#C19A2E"
+  >
+    NOW
+  </text>
+
+  <!-- Tagline -->
+  <text
+    x="360"
+    y="185"
+    fontFamily="Cormorant Garamond, serif"
+    fontSize="26"
+    fontWeight="600"
+    letterSpacing="8"
+    fill="#8A8A8A"
+  >
+    FIND • BOOK • RELAX
+  </text>
+</svg>
+ alt="Spa Now" className="h-16 opacity-80" />
               </div>
               <p className="text-sm font-light text-stone-400 leading-relaxed">
                 Atlanta's premier destination for instant bookings.

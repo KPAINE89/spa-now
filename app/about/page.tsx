@@ -257,7 +257,7 @@ export default function About() {
           
           <div className="border-t border-stone-800 pt-8 text-center">
             <p className="text-xs font-light text-stone-500 tracking-wide">
-              © 2026 SpaNow LLC
+              © 2026 SpaNow Technologies LLC
             </p>
           </div>
         </div>
