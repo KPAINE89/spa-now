@@ -21,7 +21,7 @@ export default function Home() {
       <header className="relative bg-white/80 backdrop-blur-md border-b border-stone-200/50 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/" className="flex items-center">
-            <img src="/logo.png" alt="Spa Now" className="h-20" />
+            <img src="/logo.png" alt="Spa Now" className="h-32" />
           </a>
           <nav className="hidden md:flex space-x-8 text-sm">
             <a href="#" className="text-stone-600 hover:text-yellow-600 transition font-light tracking-wide">Find a Spa</a>
