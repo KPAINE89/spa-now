@@ -17,7 +17,7 @@ export default function RootLayout({
       <body className="bg-stone-50 text-stone-800 flex flex-col min-h-screen">
         {/* GLOBAL NAVBAR */}
         <header className="sticky top-0 z-50 bg-stone-50 border-b border-stone-200">
-          <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+          <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
             <Link href="/" aria-label="SpaNow Home">
               <Image
                 src="/logo.png"
