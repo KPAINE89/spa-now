@@ -41,7 +41,7 @@ export default function RootLayout({
             <div className="flex items-center gap-4">
               <span className="text-sm text-stone-700 cursor-default">Sign In</span>
 
-              <span className="bg-yellow-600 text-white px-5 py-2.5 rounded-full text-sm shadow-sm cursor-default">
+              <span className="bg-[#7A9E87] text-white px-5 py-2.5 rounded-full text-sm shadow-sm cursor-default">
                 Provider Portal
               </span>
             </div>
