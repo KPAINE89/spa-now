@@ -8,8 +8,7 @@ export default function Home() {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Searching for:', { location, serviceType });
-    alert(`Searching for ${serviceType || 'any service'} in ${location || 'Atlanta'}. Search functionality coming soon!`);
+    window.location.href = '/spas';
   };
 
   return (
