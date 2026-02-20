@@ -31,9 +31,9 @@ export default function RootLayout({
 
             <nav className="hidden md:flex items-center gap-10 text-sm tracking-wide">
               <span className="text-stone-700 cursor-default">Find a Spa</span>
-              <span className="text-stone-700 cursor-default">For Providers</span>
+              <Link href="/providers" className="hover:text-[#7A9E87] transition">For Providers</Link>
 
-              <Link href="/about" className="hover:text-yellow-600 transition">
+              <Link href="/about" className="hover:text-[#7A9E87] transition">
                 About
               </Link>
             </nav>
@@ -98,7 +98,7 @@ export default function RootLayout({
                   <li>
                     <Link
                       href="/about"
-                      className="text-stone-400 hover:text-yellow-400 transition"
+                      className="text-stone-400 hover:text-[#7A9E87] transition"
                     >
                       About
                     </Link>
