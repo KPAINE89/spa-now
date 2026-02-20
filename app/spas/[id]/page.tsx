@@ -41,7 +41,7 @@ export default function SpaDetailPage() {
       customer_email: form.email,
       customer_phone: form.phone,
       appointment_date: form.date,
-      appointment_time: form.time + ':00',
+      appointment_time: form.time + ':00', : null,
       notes: form.notes,
       status: 'pending'
     })
